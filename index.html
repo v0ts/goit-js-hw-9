@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main class="main">
+      <section class="todo-section">
+        <ul class="todo-list">
+          <li class="todo-item">
+            <h2 class="todo-title">eat some fruits</h2>
+            <p class="todo-text">i need eat some fruits today</p>
+            <div class="todo-box">
+              <label for="todo1" class="todo-do-it">you do it?</label>
+              <input
+                type="checkbox"
+                name="todo1"
+                id="todo1"
+                class="todo-checkbox"
+              />
+            </div>
+          </li>
+          <li class="todo-item">
+            <h2 class="todo-title">clear PC</h2>
+            <p class="todo-text">i need to clear PC today</p>
+            <div class="todo-box">
+              <label for="todo2" class="todo-do-it">you do it?</label>
+              <input
+                type="checkbox"
+                name="todo2"
+                id="todo2"
+                class="todo-checkbox"
+              />
+            </div>
+          </li>
+          <li class="todo-item">
+            <h2 class="todo-title">go to school</h2>
+            <p class="todo-text">i need going to school every day</p>
+            <div class="todo-box">
+              <label for="todo3" class="todo-do-it">you do it?</label>
+              <input
+                type="checkbox"
+                name="todo3"
+                id="todo3"
+                class="todo-checkbox"
+              />
+            </div>
+          </li>
+          <li class="todo-item">
+            <h2 class="todo-title">what is it?</h2>
+            <p class="todo-text">idk</p>
+            <div class="todo-box">
+              <label for="todo4" class="todo-do-it">you do it?</label>
+              <input
+                type="checkbox"
+                name="todo4"
+                id="todo4"
+                class="todo-checkbox"
+              />
+            </div>
+          </li>
+          <li class="todo-item">
+            <h2 class="todo-title">what is it?</h2>
+            <p class="todo-text">idk</p>
+            <div class="todo-box">
+              <label for="todo5" class="todo-do-it">you do it?</label>
+              <input
+                type="checkbox"
+                name="todo5"
+                id="todo5"
+                class="todo-checkbox"
+              />
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="form-section">
+        <form class="form">
+          <ul class="form-list">
+            <li class="form-item">
+              <label for="name" class="form-label">name:</label>
+              <input
+                name="name"
+                id="name"
+                type="text"
+                class="form-input"
+                required
+              />
+            </li>
+            <li class="form-item">
+              <label for="password" class="form-label">password:</label>
+              <input
+                name="password"
+                id="password"
+                type="text"
+                class="form-input"
+                required
+              />
+            </li>
+          </ul>
+          <button type="submit" class="form-button">submit</button>
+        </form>
+      </section>
+
+      <section class="saved">
+        <form class="saved-form">
+          <label for="saved-input">add link:</label>
+          <input type="text" name="saved-input" id="" class="saved-input" />
+          <button type="submit" class="saved-button">add link</button>
+        </form>
+        <ul class="saved-list"></ul>
+      </section>
+
+      <section class="phone-list">
+        <form class="phone-form">
+          <ul class="phone-list">
+            <li class="phone-item">
+              <label for="phone-name" class="phone-label">name:</label>
+              <input
+                type="text"
+                name="phone-name"
+                id="phoneName"
+                class="phone-input"
+              />
+            </li>
+            <li class="phone-item">
+              <label for="phone-surname" class="phone-label">surname:</label>
+              <input
+                type="text"
+                name="phone-surname"
+                id="phoneSurname"
+                class="phone-input"
+              />
+            </li>
+            <li class="phone-item">
+              <label for="phone-phone" class="phone-label">phone:</label>
+              <input
+                type="tel"
+                name="phone-phone"
+                id="phonePhone"
+                class="phone-input"
+              />
+            </li>
+            <li class="phone-item">
+              <label for="phone-email" class="phone-label">email:</label>
+              <input
+                type="email"
+                name="phone-email"
+                id="phoneEmail"
+                class="phone-input"
+              />
+            </li>
+          </ul>
+          <button type="submit" class="phone-add">add</button>
+        </form>
+
+        <ul class="contacts-list">
+
+        </ul>
+      </section>
+    </main>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

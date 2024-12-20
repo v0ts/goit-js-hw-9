@@ -1,0 +1,37 @@
+.todo-box { 
+	display: flex;
+}
+
+.todo-item { 
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	background-color: beige;
+}
+
+.todo-list { 
+	display: flex;
+	gap: 30px;
+}
+
+.saved-list { 
+	display: flex;
+}
+
+.saved { 
+	padding-top: 20px;
+}
+
+.saved-item {
+	width: 300px;
+	height: 300px;
+}
+
+.phone-list { 
+	padding-top: 20px;
+}
+
+.contacts-list { 
+	display: flex;
+	gap: 30px;
+}
